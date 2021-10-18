@@ -5,5 +5,7 @@ for (let i = 1; i <= 100; i++) {
         console.log(i + "回目" + "アホ");
     } else if (i % 5 == 0 && i % 2 == 0) {
         console.log(i + "回目" + "犬");
+    } else {
+        console.log("----------------");
     } 
 }
